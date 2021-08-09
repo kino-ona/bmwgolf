@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('../inc/pagehead.inc',{
+		"webRoot":"..",
+		"metaDesc":"2021년 10월 21일-24일, 부산시 기장군 LPGA 인터내셔널 부산",
+		"title":"BMW LADIES CHAMPIONSHIP 2021"
+	})
+</head>
+<body>
+
+	<!-- noti 팝업 -->
+	<div class="layer_body popup_noti is-visible" id="popup_noti">
+		<div class="layer_container">
+			<div class="layer_wrap">
+				<div class="layer_header">
+					<button onclick="top.self.close();" class="layer_close manualfn">닫기</button>
+				</div>
+				<div class="layer_content">
+					<div class="desktop">
+						<p class="title">BMW 레이디스 챔피언십 2019 미디어 신청 안내</p>
+						<dl class="type1">
+							<dt>취재신청</dt>
+							<dd>LPGA 공식 신청 사이트 內 신청 페이지에 직접 입력</dd>
+						</dl>
+						<dl class="type1 last">
+							<dt>기한</dt>
+							<dd>9월 16일~10월 13일까지</dd>
+						</dl>
+						<!-- <dl class="type1 last">
+							<dt>숙박 및 교통 신청</dt>
+							<dd>기간 內 이메일로 신청 (blc2019@wellcompr.com)</dd>
+						</dl> -->
+
+						<div class="inb">
+							<p>대회 일시 및 주요 일정</p>
+							<dl class="idl first">
+								<dt>10/22(화)</dt>
+								<dd><p>공식 기자회견</p></dd>
+							</dl>
+							<dl class="idl">
+								<dt>10/24(목)</dt>
+								<dd><p>1R</p></dd>
+							</dl>
+							<dl class="idl">
+								<dt>10/25(금)</dt>
+								<dd><p>2R</p></dd>
+							</dl>
+							<dl class="idl">
+								<dt>10/26(토)</dt>
+								<dd><p>3R</p></dd>
+							</dl>
+							<dl class="idl last">
+								<dt>10/27(일)</dt>
+								<dd><p>FR<br>우승자 인터뷰</p></dd>
+							</dl>
+						</div>
+						<div class="inb">
+							<dl class="type2">
+								<dt>대회 장소</dt>
+								<dd>
+									<p>LPGA 인터내셔널 부산 (부산 기장군 일광면 차양길 26)</p>
+									<span></span>
+								</dd>
+							</dl>
+							<dl class="type2 last">
+								<dt>취재 지원 사항</dt>
+								<dd>
+									<div class="line">
+										<p class="fi">숙박</p>
+										<p>
+											<span>10월 24일~27일 3박 (매체당 1실, 24일 체크인-&gt;27일 체크아웃)</span>
+										</p>
+									</div>
+									<div>
+										<p class="fi">교통</p>
+										<p>
+											<span>10월 22일 서울역&lt;-&gt;울산역 왕복 KTX 티켓 + 대회장 셔틀</span>
+											<span>10월 24~27일 內 서울&lt;-&gt;울산역 왕복 KTX 티켓 + 대회장 셔틀</span>
+											<span>호텔&lt;-&gt; 대회장 왕복 셔틀</span>
+										</p>
+									</div>
+									<div>
+										<p class="fi">식사</p>
+										<p>
+											<span>조식 호텔 제공 / 중식 미디어 센터에서 제공</span>
+										</p>
+									</div>
+								</dd>
+							</dl>
+							<!-- <p>취재 지원 사항</p>
+							<ul class="hed">
+								<li class="th1">구분</li>
+								<li class="th2">지원내용</li>
+								<li class="th3">비고</li>
+							</ul>
+							<div class="desktop">
+								<ul class="cnts cnt1">
+									<li class="th1">숙박</li>
+									<li class="th2">매체당 1실 제공</li>
+									<li class="th3">최대 3박<br>24일 체크인-&gt;27일 체크아웃</li>
+								</ul>
+								<ul class="cnts cnt2">
+									<li class="th1">교통</li>
+									<li class="th2">
+										서울&lt;-&gt; 부산 왕복 KTX 티켓 (최대 2회 왕복)<br>
+										울산역&lt;-&gt;대회장 왕복 셔틀<br>
+										호텔&lt;-&gt;대회장 왕복 셔틀
+									</li>
+									<li class="th3">KTX 왕복 일정 및<br>셔틀 일정 추후 공지</li>
+								</ul>
+								<ul class="cnts cnt3">
+									<li class="th1">식사</li>
+									<li class="th2">조식, 중식 및 간식 제공</li>
+									<li class="th3">조식 – 호텔 제공<br>중식/간식 – 미디어센터에서 제공</li>
+								</ul>
+							</div>
+
+							<div class="mobile">
+								<table class="cnts">
+								<tbody>
+									<tr>
+										<td class="th1"><p>숙박</p></td>
+										<td class="th2">매체당 1실 제공 <span class="mobile">최대 3박 24일 체크인-&gt;27일 체크아웃</span></td>
+									</tr>
+									<tr>
+										<td class="th1"><p>교통</p></td>
+										<td class="th2">
+											서울&lt;-&gt; 부산 왕복 KTX 티켓 (최대 2회 왕복)<br>
+											울산역&lt;-&gt;대회장 왕복 셔틀<br>
+											호텔&lt;-&gt;대회장 왕복 셔틀
+											<span class="mobile">KTX 왕복 일정 및 셔틀 일정 추후 공지</span>
+										</td>
+									</tr>
+									<tr>
+										<td class="th1"><p>식사</p></td>
+										<td class="th2">
+											조식, 중식 및 간식 제공
+											<span class="mobile">조식 – 호텔 제공 중식/간식 – 미디어센터에서 제공</span>
+										</td>
+									</tr>
+								</tbody>
+								</table>
+							</div> -->
+						</div>
+
+						<div class="info">
+							<ul>
+								<li><p>숙박 및 교통은 선착순 진행되며, 상기 일정 外 추가 지원은 불가합니다.</p></li>
+								<li><p>미디어 공식 호텔 및 객실 배정은 접수완료 후 공지 예정</p></li>
+								<li><p>자가 이동 시, VIP 주차장 내 미디어 전용 주차장 이용 (별도 PASS 발급)</p></li>
+								<li><p>숙박 및 교통 신청 : 기간 內 이메일로 신청 (<span class="blu">blc2019@wellcompr.com</span>)</p></li>
+							</ul>
+							<!-- <ul>
+								<li>
+									<p>숙박 및 교통은 선착순 진행되며, 아래 일정 外 추가 지원은 불가합니다.</p>
+									<div>
+										<p class="sp1">교통:</p>
+										<p class="sp2">
+											10월 22일 서울역&lt;-&gt;울산역 왕복 KTX 티켓 (50개 미디어)<br>
+											10월 24~27일 內 서울&lt;-&gt;울산역 왕복 KTX 티켓 (45개 미디어)
+										</p>
+									</div>
+									<div>
+										<p class="sp1">숙박:</p>
+										<p class="sp2">10월 24일~27일 3박 (45개 미디어)</p>
+									</div>
+								</li>
+								<li>
+									<p>미디어 공식 호텔 및 객실 배정은 접수완료 후 공지 예정</p>
+								</li>
+								<li>
+									<p>자가 이동 시, VIP 주차장 내 미디어 전용 주차장 이용 (별도 PASS 발급)</p>
+								</li>
+								<li>
+									<p>문의: 홍보회사 웰컴어소씨에이츠 김미향 이사(010-2790-9140 / blc2019@wellcompr.com)</p>
+								</li>
+							</ul> -->
+						</div>
+
+						<div class="btnarea">
+							<a href="http://www.lpgamediacredentials.com" class="btn_normal btn_blue" target="_blank"  onclick="layerClose('pop_noti');">취재 신청 바로가기</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--// noti 팝업 -->
+</body>
+</html>

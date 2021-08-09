@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	@@include('../inc/pagehead.inc',{
+		"webRoot":"..",
+		"metaDesc":"2021년 10월 21일-24일, 부산시 기장군 LPGA 인터내셔널 부산",
+		"title":"BMW LADIES CHAMPIONSHIP 2021"
+	})
+</head>
+<body>
+<div class="skipnavigation"><a href="#container">본문 바로가기</a></div>
+
+<div id="wrap" class="wrap">
+	<!-- gnbhead -->
+		@@include('../inc/header.inc')
+	<!-- //gnbhead -->
+
+	<!-- container -->
+	<div class="sub_visual tournm_visu">
+		<div class="keyvisual desktop">
+			<img src="../assets/images/contents/tournm_visual4.jpg" alt="찾아오시는 길">
+		</div>
+		<div class="sub_head">
+			<p class="title">찾아오시는 길</p>
+			<p class="copy">부산광역시에 위치한 LPGA 공식 골프장, LPGA 인터내셔널 부산을 만나보세요.</p>
+		</div>
+	</div>
+	<div class="sub_title">
+		<div class="row">
+			<ul class="sub_navi">
+				<li class="p_bullet"><a href="place.html">장소 소개</a></li>
+				<li class="p_bullet"><a href="course.html">코스 가이드</a></li>
+				<li class="p_bullet"><a href="area.html">주요시설</a></li>
+				<li class="p_bullet"><a href="map.html">찾아오시는 길</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="container" class="container">
+		<div class="tournm_cont row">
+			<div class="sub_head">
+				<p class="title">찾아오시는 길</p>
+				<p class="copy">부산광역시에 위치한 LPGA 공식 골프장, LPGA 인터내셔널 부산을 만나보세요.</p>
+			</div>
+			<!-- mobile mn -->
+			<div class="mobile subnavi">
+				<h1>찾아오시는 길</h1>
+				<ul class="sub_menu">
+					<li><a href="place.html">장소 소개</a></li>
+					<li><a href="course.html">코스 가이드</a></li>
+					<li><a href="area.html">주요시설</a></li>
+					<li class="active"><a href="map.html">찾아오시는 길</a></li>
+				</ul>
+			</div>
+			<!--// mobile mn -->
+			<div class="sub_cont">
+				<div class="mapinfo">
+					<p class="img desktop"><img src="../assets/images/contents/map.jpg" alt=""></p>
+					<p class="img mobile"><img src="../assets/images/contents/mmap.jpg" alt=""></p>
+					<div class="mobile">
+						<dl class="method">
+							<dt>대회장</dt>
+							<dd>부산광역시 기장군 일광면 차양길 26</dd>
+						</dl>
+						<dl class="method">
+							<dt>셔틀버스 이용안내</dt>
+							<dd><p>운영 기간</p>10월 24일 목요일 - 10월 27일 일요일</dd>
+							<dd><p>운영 시간</p>오전 07시 - 경기 종료시 (10 - 15분 간격 운행)</dd>
+						</dl>
+					</div>
+					<dl class="method">
+						<dt>갤러리 주차장 이용시</dt>
+						<dd>
+							<p><span>제 1주차장</span>부산시 기장군 기장읍 시랑리 12-1</p>
+							<p><span>제 2주차장</span>부산시 기장군 기장읍 연화리 463-1</p>
+							<p class="ls">제 1주차장 만차 시 제 2주차장을 운영할 예정이오니, 제 1주차장을 우선 이용해 주시기 바랍니다.</p>
+							<div class="rout">
+								<span class="fs">갤러리 주차장</span>
+								<span>셔틀버스 환승</span>
+								<span class="ls">대회장</span>
+							</div>
+						</dd>
+					</dl>
+					<dl class="method">
+						<dt>대중교통 이용시</dt>
+						<dd>
+							<p><span>오시리아역(동해선)에서 하차 후 환승</span></p>
+							<div class="rout">
+								<span class="fs">오시리아역 1번출구</span>
+								<span>셔틀버스 환승</span>
+								<span class="ls">대회장</span>
+							</div>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--// container -->
+
+	<!-- footer -->
+	@@include('../inc/footer.inc', {
+		"footype":"foosub"
+	})
+	<!-- //footer -->
+</div>
+
+<script type="text/javascript" src="../assets/js/ui.js"></script>
+<script>
+	topNavi(1);
+	subNavi(3);
+</script>
+</body>
+</html>
