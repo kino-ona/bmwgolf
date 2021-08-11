@@ -557,6 +557,20 @@
     }
   }
   /** 20190917 e **/
+  .ticket_cont .sub_cont {
+    float:none;
+    width:calc(100% - 4rem);
+    .tables {
+      .tbodys, .theads {
+        .td, .th {
+          flex:1;
+        }
+      }
+    }
+    &.last {
+      margin-left: 2rem;
+    }
+  }
 }
 
 @media (max-width:1024px) {
@@ -691,6 +705,13 @@
 
   .ticket_cont {
     padding-bottom:6rem;
+    .sub_cont {
+      float:none;
+      width:calc(100% - 2rem);
+      &.last {
+        margin-left:2rem;
+      }
+    }
     .tables {
       .theads, .tbodys {
         .th, .td {

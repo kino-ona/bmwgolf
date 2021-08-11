@@ -353,10 +353,12 @@
 .pop_qcard03 {
   .layer_wrap {
     .layer_header, .layer_content {
-      max-width:112.5rem;
+      // max-width:112.5rem;
+      max-width:773px;
       margin:0 auto;
     }
     .layer_content {
+      padding:0;
       p {
         cursor: pointer;
         background: url(../images/contents/pop_qcard03_img.jpg) no-repeat center top;
@@ -493,6 +495,7 @@
         // width:calc((100% / 2) - 0.8rem);
         margin-right:1.5rem;
         &:nth-child(3n){margin-right:0;}
+        &:nth-child(4){clear:left;}
       }
     }
     &.type03 {
