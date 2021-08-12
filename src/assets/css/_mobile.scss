@@ -707,7 +707,7 @@
     padding-bottom:6rem;
     .sub_cont {
       float:none;
-      width:calc(100% - 2rem);
+      width:calc(100% - 4rem);
       &.last {
         margin-left:2rem;
       }
@@ -717,7 +717,19 @@
         .th, .td {
           font-size: 1.1rem;
           &.first .txt,
-          &.full .txt {font-size: 1.1rem}
+          &.full .txt {
+            font-size: 1.1rem;
+          }
+        }
+        .td {
+          &.full .txt {
+            > p {
+              position:relative;
+              left:0;
+              top:0;
+              padding:5px 0;
+            }
+          }
         }
       }
     }
