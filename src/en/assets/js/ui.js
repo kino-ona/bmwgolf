@@ -217,6 +217,15 @@ $(document).ready(function() {
 			if($(window).width() > 1024){
 				$(this).parents('.logolist').find('.partn_info').css('top', boxH + 45);
 				$(this).parents('.logolist').css('padding-bottom', parninfoH + 90);
+				if($(this).parents('.partn').hasClass('type02')){
+					if($(this).parents('.logolist:nth-child(n+4)')) {
+						$(this).parents('.logolist:nth-child(n+4)').find('.partn_info').css('top', boxH*2 + 45);
+					}else{
+						$(this).parents('.logolist').find('.partn_info').css('top', boxH + 45);
+					}
+					$(this).parents('.logolist').css('padding-bottom', parninfoH + 90);
+				}
+
 				if($(this).parents('.partn').hasClass('type03')){
 					$(this).parents('.logolist:nth-child(5n)').find('.partn_info').css('top', boxH*2 + 45);
 					$(this).parents('.logolist:nth-child(6)').find('.partn_info').css('top', boxH*2 + 45);
