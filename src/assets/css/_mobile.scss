@@ -573,6 +573,55 @@
       margin-left: 2rem;
     }
   }
+
+  .ticket_cont {
+    .sub_cont.full {
+      width:calc(100% - 4rem);
+      .subtit {
+        padding-bottom:2rem;
+      }
+      .sub2tit {
+        margin-bottom:10px;
+        font-size:14px;
+      }
+    }
+    .gray-box {
+      padding:25px;
+      li {
+        margin-top:15px;
+        font-size:13px;
+        &:before {
+          top:6px;
+          width:2px;
+          height:2px;
+        }
+      }
+    }
+  }
+  .qa-wrap {
+    .acco_head, .acco_panel {
+      padding:15px;
+    }
+    .title {
+      position:relative;
+      padding-right: 30px;
+      padding-left:25px;
+      font-size:14px;
+      strong {
+        position:absolute;
+        left:0;
+        top:0;
+      }
+    }
+    .acco_panel {
+      padding-right:10%;
+      padding-left:40px;
+      font-size:13px;
+      strong {
+        font-size:14px;
+      }
+    }
+  }
 }
 
 @media (max-width:1024px) {

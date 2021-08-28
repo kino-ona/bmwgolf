@@ -2,6 +2,7 @@
 
 .br {display: none;width:0;height:0;line-height:0;}
 .br2 {display: block;width:0;height:0;line-height:0;}
+.mobile {display: none;}
 /**** main ****/
 .main_cont {
   .keyvisual {
@@ -518,3 +519,214 @@
     }
   }
 }
+
+.ticket_cont {
+  // padding-top:10rem;
+  padding-bottom:15rem;
+  &:after {
+    content: '';
+    display: block;
+    clear:both;
+  }
+  .sub_head {
+    margin-bottom:0;
+    > p {display: none;}
+  }
+  .btn_normal.btn_blue {
+    min-width: 180px;
+    font-size: 1.5rem;
+  }
+  .sub_cont {
+    float:left;
+    width:calc(50% - 20px);
+    &.last {
+      margin-left:40px;
+    }
+    &.full {
+      clear:both;
+      float:none;
+      width:100%;
+      margin-bottom:65px;
+      .subtit {
+        padding-bottom:40px;
+      }
+    }
+  }
+  .gray-box {
+    padding:35px;
+    background-color: #f7f7f7;
+    li {
+      position :relative;
+      padding-left:10px;
+      margin-top:25px;
+      font-size:15px;
+      font-weight: 300;
+      span {
+        display: block;
+        margin-top:7px;
+        font-size:14px;
+      }
+      &:first-of-type {
+        margin-top:0;
+      }
+      &:before {
+        content: '';
+        position:absolute;
+        left:0;
+        top:7px;
+        display: block;
+        width: 3px;
+        height:3px;
+        background-color: #000;
+      }
+      &.last {
+        font-weight: 400;
+        &:before {
+          content: '*';
+          top:0;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  .subtit {
+    font-size: 2.5rem;
+    padding-bottom:2.3rem;
+  }
+  .sub2tit {
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight: 400;
+  }
+  .tables {
+    width:100%;
+    margin-bottom:10rem;
+    .theads, .tbodys {
+      display: flex;
+      width:100%;
+      // width:50%;
+      border-bottom:1px solid #fff;
+      .th, .td {
+        flex:1;
+        // flex:.28;
+        background:#f2f2f2;
+        text-align: center;
+        border-right:1px solid #fff;
+        font-size: 1.6rem;
+        &:last-child {border-right:0;}
+        .txt {
+          position: relative;
+          height:7.5rem;
+          > p {
+        		position: absolute;
+        		left:50%;top:50%;width:100%;max-width: 100%;
+        		-webkit-transform: translate(-50%, -50%);
+        		-ms-transform: translate(-50%, -50%);
+        		transform: translate(-50%, -50%);
+            > span {
+              display: block;
+              padding-top:3px;
+              font-size: inherit;
+              color:#8e8e8e;
+              &.br {
+                display: none;
+              }
+            }
+          }
+        }
+        &.half {
+          .txt {
+            height:7rem;
+            &:first-child {height:calc(7rem - 1px);border-bottom:1px solid #fff;}
+          }
+        }
+        &.point {
+          background-color: #1c69d4;
+          color:#fff;
+          .txt {
+            > p > span {
+              color:#fff;
+            }
+          }
+        }
+      }
+      .td {
+        background:#fff;
+        border-right:1px solid #fff;
+        font-size: 1.5rem;
+        &.point {
+          .txt {color:#fff;}
+        }
+        .txt {
+          height:7rem;
+          border-bottom:1px solid #e6e6e6;
+          color:#8e8e8e;
+          &:last-child {border-bottom:0;}
+        }
+        &.full {
+          .txt {
+            padding-left:1rem;
+            min-height :15rem;
+            font-size: 1.4rem;
+            letter-spacing: -1px;
+            line-height: 1.8;
+            text-align: left;
+            color:#262626;
+            > p {
+              left:10px;top:10px;
+          		-webkit-transform: translate(0, 0);
+          		-ms-transform: translate(0, 0);
+          		transform: translate(0, 0);
+            }
+          }
+        }
+        &.first .txt {
+          // font-size: 1.8rem;
+          font-size:16px;
+          text-align: left;
+          color:#262626;
+          p {
+            -webkit-transform: translate(-40%, -50%);
+            -ms-transform: translate(-40%, -50%);
+            transform: translate(-40%, -50%);
+          }
+        }
+      }
+      .full {
+        flex:.42;
+      }
+      &:after {content: '';display: block;clear:both;}
+    }
+    .tbodys {
+      border-bottom:1px solid #e6e6e6;
+    }
+  }
+}
+.qa-wrap {
+  border-top:1px solid #e6e6e6;
+  .acco_head, .acco_panel {
+    padding:20px;
+    border-bottom:1px solid #e6e6e6;
+  }
+  strong {
+    font-weight: 400;
+  }
+  .title {
+    font-size:16px;
+  }
+  .acco_panel {
+    position:relative;
+    background-color: #f7f7f7;
+    padding-right:15%;
+    padding-left:45px;
+    font-weight: 300;
+    line-height:1.5;
+    strong {
+      position:absolute;
+      left:20px;
+      top:20px;
+      font-size:18px;
+    }
+  }
+}
+

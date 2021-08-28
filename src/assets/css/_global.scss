@@ -49,31 +49,6 @@
   url(../font/BMWTypeNextLatinTT-Bold.woff) format('woff'),
   url(../font/BMWTypeNextLatinTT-Bold.ttf) format('truetype');
 }
-// @font-face {
-//   font-family: 'BMWTypeWeb';
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url(../font/BMWGlobal_Pro_regular.woff) format('woff'),
-//   url(../font/BMWGlobal_Pro_regular.ttf) format('truetype');
-// }
-// @font-face {
-//   font-family: 'BMWTypeWeb';
-//   font-style: normal;
-//   font-weight: 300;
-//   src: url(../font/BMWGlobal_Pro_light.eot);
-//   src: url(../font/BMWGlobal_Pro_light.eot?#iefix) format('embedded-opentype'),
-//   url(../font/BMWGlobal_Pro_light.woff) format('woff'),
-//   url(../font/BMWGlobal_Pro_light.ttf) format('truetype');
-// }
-// @font-face {
-//   font-family: 'BMWTypeWeb';
-//   font-style: normal;
-//   font-weight: 700;
-//   src: url(../font/BMWGlobal_Pro_bold.eot);
-//   src: url(../font/BMWGlobal_Pro_bold.eot?#iefix) format('embedded-opentype'),
-//   url(../font/BMWGlobal_Pro_bold.woff) format('woff'),
-//   url(../font/BMWGlobal_Pro_bold.ttf) format('truetype');
-// }
 
 /* RESET */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,
@@ -721,6 +696,67 @@ html, body {background-color: #fff;height: 100%; min-height: 100%;color:#262626;
       > span {
         background-image: url(../images/common/btn_pause.png);
         background-size: 80px;
+      }
+    }
+  }
+}
+.accord_wrap {
+	.item {
+		box-sizing: content-box;
+		overflow: hidden;
+	}
+	.acco_head {
+		position:relative;
+		display: block;
+		text-decoration: none;
+		outline: 0;
+		cursor: pointer;
+		.acco_target {
+			display:block;
+			position:relative;
+			outline: none;
+		}
+		i {
+			position: absolute;
+			right:2.140rem;
+			top:22%;
+      -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+			display: inline-block;
+			line-height: inherit;
+			vertical-align: middle;
+			width: 10px;
+			height: 10px;
+			border-left: 2px solid #333;
+			border-bottom: 2px solid #333;
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			box-sizing: border-box;
+		}
+		&[aria-expanded="true"] {
+			i {
+				-webkit-transform: rotate(135deg);
+				transform: rotate(135deg);
+			}
+		}
+	}
+	[data-status="disabled"] .acco_panel{
+		display: none;
+	}
+	.acco_panel {
+		outline: 0;
+		&[aria-hidden="true"] {
+			display: none;
+		}
+	}
+  @media (max-width:1024px) {
+    .acco_head {
+      i {
+        right:0px;
+        width:7px;
+        height:7px;
+        border-width:1px;
       }
     }
   }

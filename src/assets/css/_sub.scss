@@ -926,7 +926,7 @@
     margin-top:8rem;
     .bnr {
       float:left;
-      width:calc((100% / 3) - 7px;
+      width:calc((100% / 3) - 7px);
       margin-right: 7px;
       height: 17rem;
       text-align: center;
@@ -934,7 +934,7 @@
 
       &:last-child {
         margin-right:0;
-        width:calc((100% / 3);
+        width:calc((100% / 3));
       }
       > a {
         display: block;
@@ -1173,7 +1173,7 @@
             left:0;
             width:2rem;
             height:2rem;
-            background:{
+            background: {
               image: url(../images/contents/map_ico.png);
               size: cover;
               repeat: no-repeat;
@@ -1301,10 +1301,61 @@
     &.last {
       margin-left:40px;
     }
+    &.full {
+      clear:both;
+      float:none;
+      width:100%;
+      margin-bottom:65px;
+      .subtit {
+        padding-bottom:40px;
+      }
+    }
+  }
+  .gray-box {
+    padding:35px;
+    background-color: #f7f7f7;
+    li {
+      position :relative;
+      padding-left:10px;
+      margin-top:25px;
+      font-size:15px;
+      font-weight: 300;
+      span {
+        display: block;
+        margin-top:7px;
+        font-size:14px;
+      }
+      &:first-of-type {
+        margin-top:0;
+      }
+      &:before {
+        content: '';
+        position:absolute;
+        left:0;
+        top:7px;
+        display: block;
+        width: 3px;
+        height:3px;
+        background-color: #000;
+      }
+      &.last {
+        font-weight: 400;
+        &:before {
+          content: '*';
+          top:0;
+          background-color: transparent;
+        }
+      }
+    }
   }
   .subtit {
     font-size: 2.5rem;
     padding-bottom:2.3rem;
+  }
+  .sub2tit {
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight: 400;
   }
   .tables {
     width:100%;
@@ -1410,6 +1461,33 @@
     }
     .tbodys {
       border-bottom:1px solid #e6e6e6;
+    }
+  }
+}
+.qa-wrap {
+  border-top:1px solid #e6e6e6;
+  .acco_head, .acco_panel {
+    padding:20px;
+    border-bottom:1px solid #e6e6e6;
+  }
+  strong {
+    font-weight: 400;
+  }
+  .title {
+    font-size:16px;
+  }
+  .acco_panel {
+    position:relative;
+    background-color: #f7f7f7;
+    padding-right:15%;
+    padding-left:45px;
+    font-weight: 300;
+    line-height:1.5;
+    strong {
+      position:absolute;
+      left:20px;
+      top:20px;
+      font-size:18px;
     }
   }
 }
