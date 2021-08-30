@@ -19,7 +19,7 @@
 				<li class="p_bullet">
 					<a href="partners.html" class="tab">파트너</a>
 				</li>
-			</ul> 
+			</ul>
 		</div>
 		<div class="lang">
 			<p class="now"><a href="main.html">한국어</a></p>
