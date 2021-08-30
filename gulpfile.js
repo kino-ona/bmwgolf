@@ -50,14 +50,18 @@ gulp.task('compile-sass', function() {
 		// .pipe(changing(dist))
 		.pipe(gulp.dest(dist));
 });
-gulp.task('html-include', function() {
+gulp.task('file-include', function() {
+	// return gulp.src(paths.html)
 	return gulp.src(src + paths.html)
 	.pipe(fileinclude({
 		prefix: '@@',
-		basepath: '@file'
+		basepath: '@file',
+		context: {
+			guideMenu: '',
+			loginStatus: ''
+		}
 	}))
-	.pipe(changing(dist))
-	.pipe(gulp.dest(dist))
+	.pipe(gulp.dest(dist));
 });
 
 // JS 파일 복사
@@ -91,19 +95,19 @@ gulp.task('filewatch', function () { // 파일 변경 감지용 추가
 	// 	gulp.start('imagemin');
 	// });
 	watch(src + '/**/*.inc', function () {
-		gulp.start('html-include');
+		gulp.start('file-include');
 	});
 });
 gulp.task('watch', function() {
 	livereload.listen();
 	gulp.watch(src + paths.scss, ['compile-sass']);
-	gulp.watch(src + paths.html, ['html-include']);
+	gulp.watch(src + paths.html, ['file-include']);
 	gulp.watch(dist + '/**').on('change', livereload.changed);
 });
 gulp.task('default', [
 	'server',
 	'compile-sass',
-	'html-include',
+	'file-include',
 	// 'imagemin',
 	'copy-js',
 	'copy-fonts',

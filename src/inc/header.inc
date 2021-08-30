@@ -6,9 +6,6 @@
 		</div>
 		<div class="top_navi">
 			<ul class="navi">
-				<!-- <li>
-					<a href="#" onclick="doPop();" class="tab">미디어 신청</a>
-				</li> -->
 				<li class="p_bullet">
 					<a href="information.html" class="tab">대회 안내</a>
 				</li>
@@ -16,15 +13,15 @@
 					<a href="place.html" class="tab">장소 소개</a>
 				</li>
 				<li class="p_bullet">
-					<a href="tickets.html" class="tab">티켓 정보</a>
+					<a href="#" onclick="layerOpen('pop_qcard03');return false;" class="tab">티켓 정보</a>
+					<!-- <a href="tickets.html" class="tab">티켓 정보</a> -->
 				</li>
 				<li class="p_bullet">
 					<a href="partners.html" class="tab">파트너</a>
 				</li>
-			</ul>
+			</ul> 
 		</div>
 		<div class="lang">
-			<!-- <p class="now mobile"><a href="#" onclick="layerOpen('pop_noti');">미디어 신청</a></p> -->
 			<p class="now"><a href="main.html">한국어</a></p>
 			<p><a href="../en/html/main.html">English</a></p>
 		</div>
@@ -34,12 +31,6 @@
 				<ul class="navi" id="accor">
 					<li class="p_bullet">
 						<a href="information.html" class="tab">대회 안내</a>
-						<!-- <div class="subdepth">
-							<ul class="submenu">
-								<li><a href="information.html">대회 안내</a></li>
-								<li><a href="player.html">참가 선수</a></li>
-							</ul>
-						</div> -->
 					</li>
 					<li class="p_bullet">
 						<a href="#" onclick="subMenuShow(this)" class="tab">장소 소개</a>
@@ -53,7 +44,8 @@
 						</div>
 					</li>
 					<li class="p_bullet">
-						<a href="tickets.html" class="tab">티켓 정보</a>
+						<a href="#" onclick="layerOpen('pop_qcard03');return false;" class="tab">티켓 정보</a>
+						<!-- <a href="tickets.html" class="tab">티켓 정보</a> -->
 					</li>
 					<li class="p_bullet">
 						<a href="partners.html" class="tab">파트너</a>
@@ -68,10 +60,6 @@
 						<li><a href="#">찾아오시는 길</a></li>
 					</ul>
 				</div>
-				<!-- <div class="lang">
-					<p class="now"><a href="main.html">한국어</a></p>
-					<p><a href="../en/html/main.html">English</a></p>
-				</div> -->
 			</div>
 
 
@@ -81,8 +69,3 @@
 	</div>
 </div>
 
- <script>
- $( function() {
-   // $( "#accor" ).accordion();
- } );
- </script>

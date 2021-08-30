@@ -607,9 +607,8 @@ html, body {background-color: #fff;height: 100%; min-height: 100%;color:#262626;
 .layer_close {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: -20px;
   width:49px;height:49px;
-	// padding: 2rem;
 	color: #aaa;
 	background: url(../images/common/icn_close.png) no-repeat center center;
 	background-size: 49px;

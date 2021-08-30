@@ -1304,9 +1304,9 @@
     }
     .cont_ban {
       height:auto;
-      padding-bottom:100%;
-      background:url(../images/contents/mcont_banner.jpg) no-repeat center 0;
-      background-size:cover;
+      // padding-bottom:100%;
+      // background:url(../images/contents/mcont_banner.jpg) no-repeat center 0;
+      // background-size:cover;
     }
   }
   .pop_qcard01, .pop_qcard02, .pop_qcard03, .pop_qcard04 {
@@ -1438,11 +1438,20 @@
     }
   }
   .pop_qcard03 {
+    .layer_close {
+      right:0;
+    }
     .layer_wrap {
+      padding-top:25%;
       .layer_content {
+        > div {
+          padding-bottom:25px;
+          font-size:14px;
+        }
         p {
-          background: url(../images/contents/mpop_qcard03_img.jpg) no-repeat center top;
-          background-size:100%;
+          padding-top:5%;
+          // background: url(../images/contents/mpop_qcard03_img.jpg) no-repeat center top;
+          // background-size:100%;
         }
       }
     }
