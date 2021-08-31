@@ -61,7 +61,7 @@ $(document).ready(function() {
 			if($('.video_wrap').hasClass('on')){
 				$('.video_wrap.on').find('video').get(0).play();
 			}
-		}, 300);
+		}, 700);
 	}
 
 	var winH = $(this).height();
