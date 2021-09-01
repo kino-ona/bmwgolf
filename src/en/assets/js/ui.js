@@ -161,6 +161,11 @@ var layerOpen = function(layerId){
 		'open': 'true',
 		'tabindex': '0'
 	});
+
+	if(layerId =='pop_qcard01') {
+		$('#pop_qcard01 .layer_footer').find('.btnarea').remove();
+	}
+
 }
 var layerClose = function(layerId){
 	$('#' + layerId).removeClass('is-visible');
