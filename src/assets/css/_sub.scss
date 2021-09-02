@@ -734,6 +734,13 @@
        position: relative;
        z-index: 100;
       }
+      .ti {
+        font-size:26px;
+        padding-bottom:20px;
+      }
+      .logothum {
+        background-color: #f1f1f1;
+      }
       &:after {content: '';clear:both;display: block;}
       .btn {
         position: absolute;

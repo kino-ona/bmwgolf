@@ -282,6 +282,9 @@ $(document).ready(function() {
 			if($(window).width() > 1024){
 				$(this).parents('.logolist').find('.partn_info').css('top', boxH + 45);
 				$(this).parents('.logolist').css('padding-bottom', parninfoH + 90);
+				if($(this).parents('.partn').hasClass('type01')){
+					$(this).parents('.logolist:nth-child(3)').find('.partn_info').css('top', boxH*2 + 45);
+				}
 				if($(this).parents('.partn').hasClass('type02')){
 					if($(this).parents('.logolist:nth-child(n+4)')) {
 						$(this).parents('.logolist:nth-child(n+4)').find('.partn_info').css('top', boxH*2 + 45);
@@ -298,6 +301,9 @@ $(document).ready(function() {
 				}
 			}
 			if($(window).width() <= 1024){
+				if($(this).parents('.partn').hasClass('type01')){
+					$(this).parents('.logolist:nth-child(3)').find('.partn_info').css('top', 0);
+				}
 				if($(this).parents('.partn').hasClass('type03')){
 					$(this).parents('.logolist').find('.partn_info').css('top', boxH);
 					$(this).parents('.logolist:nth-child(4n)').find('.partn_info').css('top', boxH*2 + 15);
