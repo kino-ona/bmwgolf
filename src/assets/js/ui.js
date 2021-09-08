@@ -385,11 +385,6 @@ function topNavi(pagenm){
 	$('.header .top_navi .navi').makeNavbar();
 	$('.header .top_navi .navi').hoverline();
 }
-// if ($('.header .top_navi').length > 0) {
-	// 	topNavi();
-	// $('.header .top_navi .navi').makeNavbar();
-	// $('.header .top_navi .navi').hoverline();
-// }
 
 function subNavi(pagenm){
 	$('.sub_title .sub_navi li').removeClass('bullet_active');
