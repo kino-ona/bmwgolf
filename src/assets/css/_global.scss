@@ -7,47 +7,47 @@
   font-style: normal;
   font-weight: 300;
   src: local('Noto Sans Light'), local('NotoSans-Light'),
-  url(../font/NotoSansKR-Light-Hestia.eot),
-  url(../font/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
-  url(../font/NotoSansKR-Light-Hestia.woff) format('woff'),
-  url(../font/NotoSansKR-Light-Hestia.otf) format('opentype');
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Light-Hestia.eot),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Light-Hestia.woff) format('woff'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Light-Hestia.otf) format('opentype');
 }
 @font-face {
   font-family: 'Noto Sans Korean';
   font-style: normal;
   font-weight: 400;
   src: local('Noto Sans Regular'), local('NotoSans-Regular'),
-  url(../font/NotoSansKR-Regular-Hestia.eot),
-  url(../font/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
-  url(../font/NotoSansKR-Regular-Hestia.woff) format('woff'),
-  url(../font/NotoSansKR-Regular-Hestia.otf) format('opentype');
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Regular-Hestia.eot),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Regular-Hestia.woff) format('woff'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/NotoSansKR-Regular-Hestia.otf) format('opentype');
 }
 @font-face {
   font-family: 'BMWTypeWeb';
   font-style: normal;
   font-weight: 400;
-  src: url(../font/BMWTypeNextLatinTT-Regular.eot);
-  src: url(../font/BMWTypeNextLatinTT-Regular.eot?#iefix) format('embedded-opentype');
-  src: url(../font/BMWTypeNextLatinTT-Regular.woff) format('woff'),
-  url(../font/BMWTypeNextLatinTT-Regular.ttf) format('truetype');
+  src: url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Regular.eot);
+  src: url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Regular.eot?#iefix) format('embedded-opentype');
+  src: url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Regular.woff) format('woff'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'BMWTypeWeb';
   font-style: normal;
   font-weight: 300;
-  src: url(../font/BMWTypeNextLatinTT-Light.eot);
-  src: url(../font/BMWTypeNextLatinTT-Light.eot?#iefix) format('embedded-opentype'),
-  url(../font/BMWTypeNextLatinTT-Light.woff) format('woff'),
-  url(../font/BMWTypeNextLatinTT-Light.ttf) format('truetype');
+  src: url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Light.eot);
+  src: url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Light.eot?#iefix) format('embedded-opentype'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Light.woff) format('woff'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Light.ttf) format('truetype');
 }
 @font-face {
   font-family: 'BMWTypeWeb';
   font-style: normal;
   font-weight: 700;
-  src: url(../font/BMWTypeNextLatinTT-Bold.eot);
-  src: url(../font/BMWTypeNextLatinTT-Bold.eot?#iefix) format('embedded-opentype'),
-  url(../font/BMWTypeNextLatinTT-Bold.woff) format('woff'),
-  url(../font/BMWTypeNextLatinTT-Bold.ttf) format('truetype');
+  src: url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Bold.eot);
+  src: url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Bold.eot?#iefix) format('embedded-opentype'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Bold.woff) format('woff'),
+  url(//www.bmwladieschampionship.co.kr/static/assets/font/BMWTypeNextLatinTT-Bold.ttf) format('truetype');
 }
 
 /* RESET */
@@ -100,7 +100,7 @@ input,select {
   font-size: 26px;
 }
 select {
-  // background-image: url(../images/btn_select.gif);
+  // background-image: url(//bmwimg.cafe24.com/ladies/assets/images/btn_select.gif);
   background-repeat: no-repeat;
   background-position: right 50%;
   background-size: 39px auto;
@@ -162,16 +162,16 @@ input[type="checkbox"]+label:before {
   display: inline-block;
   vertical-align: middle;
   background-color: transparent;
-  background-image: url("../images/chk_off.gif");
+  background-image: url("//bmwimg.cafe24.com/ladies/assets/images/chk_off.gif");
   background-repeat: no-repeat;
 }
 input[type="radio"]:checked+label:before,
 input[type="checkbox"]:checked+label:before {
-background-image: url("../images/chk_on.gif");
+background-image: url("//bmwimg.cafe24.com/ladies/assets/images/chk_on.gif");
 }
 input[type="radio"]:disabled+label:before,
 input[type="checkbox"]:disabled+label:before {
-background-image: url("../images/chk_off.gif");
+background-image: url("//bmwimg.cafe24.com/ladies/assets/images/chk_off.gif");
 }
 input[type="radio"]+label:before,
 input[type="checkbox"]+label:before {
@@ -185,7 +185,7 @@ input[type="checkbox"]+label:before {
   display: inline-block;
   vertical-align: middle;
   background-color: transparent;
-	background-image: url("../images/chk_off.gif");
+	background-image: url("//bmwimg.cafe24.com/ladies/assets/images/chk_off.gif");
   background-repeat: no-repeat;
 }
 /****** Accessibility ******/
@@ -265,7 +265,7 @@ html, body {background-color: #fff;height: 100%; min-height: 100%;color:#262626;
     position: absolute;
     top:0;left:0;right:0;
     width:100%; height:25.5rem;
-    background:url(../images/common/bg_grad.png) repeat-x 0 0;
+    background:url(//bmwimg.cafe24.com/ladies/assets/images/common/bg_grad.png) repeat-x 0 0;
     z-index: 11;
   }
 }
@@ -286,8 +286,8 @@ html, body {background-color: #fff;height: 100%; min-height: 100%;color:#262626;
       right:0;top:22px;
       width:60px;height:60px;
       padding: .01rem;
-      background: url(../images/common/logo.png) no-repeat center center;
-      // background: url(../images/common/logo.svg) no-repeat center center;
+      background: url(//bmwimg.cafe24.com/ladies/assets/images/common/logo.png) no-repeat center center;
+      // background: url(//bmwimg.cafe24.com/ladies/assets/images/common/logo.svg) no-repeat center center;
       background-size: 53px;
       -webkit-transition: 0.5s linear;
       -moz-transition: 0.5s linear;
@@ -610,7 +610,7 @@ html, body {background-color: #fff;height: 100%; min-height: 100%;color:#262626;
 	right: -20px;
   width:49px;height:49px;
 	color: #aaa;
-	background: url(../images/common/icn_close.png) no-repeat center center;
+	background: url(//bmwimg.cafe24.com/ladies/assets/images/common/icn_close.png) no-repeat center center;
 	background-size: 49px;
 	border: 0;
 	text-indent:-9999rem;
@@ -677,7 +677,7 @@ html, body {background-color: #fff;height: 100%; min-height: 100%;color:#262626;
       display: inline-block;
       vertical-align: middle;
       background-color: transparent;
-      background-image: url(../images/common/btn_play.png);
+      background-image: url(//bmwimg.cafe24.com/ladies/assets/images/common/btn_play.png);
       background-size: 80px;
       background-repeat: no-repeat;
       background-position: 0 0;
@@ -693,7 +693,7 @@ html, body {background-color: #fff;height: 100%; min-height: 100%;color:#262626;
     }
     &.stop {
       > span {
-        background-image: url(../images/common/btn_pause.png);
+        background-image: url(//bmwimg.cafe24.com/ladies/assets/images/common/btn_pause.png);
         background-size: 80px;
       }
     }

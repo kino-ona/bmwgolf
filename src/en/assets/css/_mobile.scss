@@ -25,6 +25,7 @@
           width:33.3333%;
           margin-bottom:1.5rem;
           padding:0;
+          &:nth-child(3n+1) {clear:left;}
           &.part4:after{display: none;}
           // &.part6{clear:left;}
         }
