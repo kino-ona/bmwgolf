@@ -331,3 +331,17 @@ $('.accord_wrap').each(function () { // default
 		}
 	}
 });
+
+var delay = setTimeout(function () {
+	if($('.main_cont .keyvisual .conts .tit:contains("2021"), .main_cont .noti .boxs > dd .tit:contains("2021")')) {
+		$('.main_cont .keyvisual .conts .tit, .main_cont .noti .boxs > dd .tit').each(function() {
+			var text = $(this).text();
+			$(this).text(text.replace('2021', ''));
+		});
+		$('title').each(function() {
+			var text = $(this).text();
+			$(this).text(text.replace('2021', ''));
+		});
+	}
+	clearTimeout(delay);
+}, 50);
