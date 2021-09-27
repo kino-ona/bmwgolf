@@ -550,7 +550,7 @@ if($('#pop_noti').length > 0) {
 	tmp = tmp +"<div class=layer_content>"
 	tmp = tmp +"<button onclick=layerClose('pop_noti');return false; class='layer_close manualfn'>닫기</button>"
 	tmp = tmp +"  <div class=desktop>"
-	tmp = tmp +"    <p class=title>BMW 레이디스 챔피언십 2021 <span class=br></span>미디어 취재 지원 안내</p>"
+	tmp = tmp +"    <p class=title>BMW 레이디스 챔피언십 2021 <span class=br></span>미디어 신청 안내</p>"
 	tmp = tmp +"    <dl class=type1>"
 	tmp = tmp +"      <dt>취재신청</dt>"
 	tmp = tmp +"      <dd>LPGA 공식 신청 사이트 內 <span class=br></span>신청 페이지에 직접 입력</dd>"
