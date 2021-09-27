@@ -394,9 +394,10 @@
       font-size: 1.6rem;
     }
     .layer_close {
-      top:3rem;
-      right:4rem;
+      top:1.2rem;
+      right:1.2rem;
       background: url(../images/common/icn_close2.png) no-repeat center center;
+      background-size: 24px;
       z-index: 10;
     }
     .layer_wrap {

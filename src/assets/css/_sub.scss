@@ -520,9 +520,8 @@
     font-size: 1.6rem;
   }
   .layer_close {
-    top:0;
-    right:0;
-    background: url(../images/common/icn_close2.png) no-repeat center center;
+    top:-6rem;
+    right:-6rem;
     z-index: 10;
   }
   .layer_wrap {
@@ -530,7 +529,7 @@
     .layer_header, .layer_content {
       position:relative;
       max-width:73rem;
-      margin:5% auto 0;
+      margin:10% auto 0;
     }
     .layer_header {
       position: absolute;
