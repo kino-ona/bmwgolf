@@ -269,6 +269,7 @@ $(document).ready(function() {
 					$(this).parents('.logolist:nth-child(4n)').find('.partn_info').css('top', boxH*2 + 15);
 					$(this).parents('.logolist:nth-child(5)').find('.partn_info').css('top', boxH*2 + 15);
 					$(this).parents('.logolist:nth-child(6)').find('.partn_info').css('top', boxH*2 + 15);
+					$(this).parents('.logolist:nth-child(7)').find('.partn_info').css('top', boxH*2 + 105);
 					$(this).parents('.logolist').css('padding-bottom', parninfoH + 45);
 				}
 
