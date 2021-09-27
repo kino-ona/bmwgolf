@@ -9,12 +9,12 @@
     position: relative;
     max-width:168rem;
     &.desktop {
-      background:url(../images/contents/vod_bg.jpg) no-repeat center top;
+      background:url(//bmwimg.cafe24.com/ladies/assets/images/contents/vod_bg.jpg) no-repeat center top;
       background-size: 100%;
     }
     &.mobile {
       background: none;
-      background:url(../images/contents/mvod_bg.jpg) no-repeat center top;
+      background:url(//bmwimg.cafe24.com/ladies/assets/images/contents/mvod_bg.jpg) no-repeat center top;
       background-size: 100%;
     }
     .video_wrap {
@@ -65,7 +65,7 @@
     // height:755px;
     padding-bottom:55%;
     margin-top:8rem;
-    background:url(../images/contents/cont_banner.jpg) no-repeat center 0;
+    background:url(//bmwimg.cafe24.com/ladies/assets/images/contents/cont_banner.jpg) no-repeat center 0;
     background-size:cover;
     .conts {
       position: absolute;
@@ -89,10 +89,10 @@
       font-size: 1.6rem;
       // font-family: 'Noto Sans Korean','Helvetica','Malgun Gothic','Arial',sans-serif;
       font-weight: 300;
-      // &.ban01 > dt {background-image: url(../images/contents/qucban_01.jpg)}
-      // &.ban02 > dt {background-image: url(../images/contents/qucban_02.jpg)}
-      // &.ban03 > dt {background-image: url(../images/contents/qucban_03.jpg)}
-      // &.ban04 > dt {background-image: url(../images/contents/qucban_04.jpg)}
+      // &.ban01 > dt {background-image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/qucban_01.jpg)}
+      // &.ban02 > dt {background-image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/qucban_02.jpg)}
+      // &.ban03 > dt {background-image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/qucban_03.jpg)}
+      // &.ban04 > dt {background-image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/qucban_04.jpg)}
       &:last-child {margin-right:0;}
       > dt {
         position: relative;
@@ -129,7 +129,7 @@
         .link {
           display: inline-block;
           padding-left:1.2rem;
-          background:url(../images/common/ico_link.jpg) no-repeat 0 2px;
+          background:url(//bmwimg.cafe24.com/ladies/assets/images/common/ico_link.jpg) no-repeat 0 2px;
           font-size: 1.5rem;
         }
         &:before {
@@ -161,7 +161,7 @@
             display: block;
             padding-bottom:5px;
             font-weight: 400;
-            background:url(../images/common/ico_link.jpg) no-repeat 0 3px;
+            background:url(//bmwimg.cafe24.com/ladies/assets/images/common/ico_link.jpg) no-repeat 0 3px;
           }
           &:before {display: none;}
         }
@@ -211,13 +211,13 @@
             left:0;top:0;
             display: block;
             width:1.6rem;height:1.4rem;
-            background:url(../images/common/ico_dq01.gif) no-repeat 0 0;
+            background:url(//bmwimg.cafe24.com/ladies/assets/images/common/ico_dq01.gif) no-repeat 0 0;
           }
           .ico {
             display: inline-block;
             width:1.6rem;height:1.4rem;
             vertical-align: bottom;
-            background:url(../images/common/ico_dq02.gif) no-repeat 0 0;
+            background:url(//bmwimg.cafe24.com/ladies/assets/images/common/ico_dq02.gif) no-repeat 0 0;
           }
         }
         .sign {
@@ -339,7 +339,7 @@
     .layer_content {
       p {
         cursor: pointer;
-        background: url(../images/contents/pop_qcard02_img.jpg) no-repeat center top;
+        background: url(//bmwimg.cafe24.com/ladies/assets/images/contents/pop_qcard02_img.jpg) no-repeat center top;
         background-size:100%;
       }
       img{visibility: hidden;}
@@ -366,8 +366,8 @@
       p {
         padding-top:20%;
         cursor: pointer;
-        // background: url(../images/contents/pop_qcard03_img.jpg) no-repeat center top;
-        background: url(../images/contents/pop_qcard03_title.jpg) no-repeat center top;
+        // background: url(//bmwimg.cafe24.com/ladies/assets/images/contents/pop_qcard03_img.jpg) no-repeat center top;
+        background: url(//bmwimg.cafe24.com/ladies/assets/images/contents/pop_qcard03_title.jpg) no-repeat center top;
         background-size:100%;
         a {display: block;width:100%;height:100%;}
       }
@@ -383,7 +383,7 @@
     }
     .layer_content {
       p {
-        background: url(../images/contents/pop_qcard04_img.jpg) no-repeat center top;
+        background: url(//bmwimg.cafe24.com/ladies/assets/images/contents/pop_qcard04_img.jpg) no-repeat center top;
         background-size:100%;
       }
       img{visibility: hidden;}
@@ -409,7 +409,7 @@
     .mapimg {
       padding-bottom:3rem;
       height:34.4rem;
-      background: url(../images/contents/pop_map.jpg) no-repeat center top;
+      background: url(//bmwimg.cafe24.com/ladies/assets/images/contents/pop_map.jpg) no-repeat center top;
       background-size:61.6rem 34.4rem;
       text-align: center;
       img {display: none;margin:0 auto;width:100%;}
@@ -487,7 +487,7 @@
             width:2rem;
             height:2rem;
             background: {
-              image: url(../images/contents/map_ico.png);
+              image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/map_ico.png);
               size: cover;
               repeat: no-repeat;
             }
@@ -751,13 +751,13 @@
           right:0;bottom:0;
           width:3.4rem;height:3.4rem;
           background-size:3.4rem;
-          background:url(../images/contents/btn_open.gif) no-repeat center center;
+          background:url(//bmwimg.cafe24.com/ladies/assets/images/contents/btn_open.gif) no-repeat center center;
         }
         &.show {
           border-bottom:5px solid #1c69d4;
           > span{
             bottom:-5px;
-            background:url(../images/contents/btn_close.gif) no-repeat center center;
+            background:url(//bmwimg.cafe24.com/ladies/assets/images/contents/btn_close.gif) no-repeat center center;
           }
         }
       }
@@ -968,17 +968,17 @@
         }
         &.lnk01 {
           .ico {
-            background-image: url(../images/contents/i_ico01.gif);
+            background-image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/i_ico01.gif);
           }
         }
         &.lnk02 {
           .ico {
-            background-image: url(../images/contents/i_ico02.gif);
+            background-image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/i_ico02.gif);
           }
         }
         &.lnk03 {
           .ico {
-            background-image: url(../images/contents/i_ico03.gif);
+            background-image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/i_ico03.gif);
           }
         }
       }
@@ -1190,7 +1190,7 @@
             width:2rem;
             height:2rem;
             background: {
-              image: url(../images/contents/map_ico.png);
+              image: url(//bmwimg.cafe24.com/ladies/assets/images/contents/map_ico.png);
               size: cover;
               repeat: no-repeat;
             }
