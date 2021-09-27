@@ -514,24 +514,23 @@
   }
 }
 
-/** 20190917 s **/
-.popup_noti {
+.pop_noti {
   .btn_normal {
     padding: 1.0rem 2.5rem;
     font-size: 1.6rem;
   }
   .layer_close {
-    top:3rem;
-    right:4rem;
+    top:0;
+    right:0;
     background: url(../images/common/icn_close2.png) no-repeat center center;
     z-index: 10;
   }
-  .layer_container{background-color: #fff;}
   .layer_wrap {
     padding-top:0;
     .layer_header, .layer_content {
+      position:relative;
       max-width:73rem;
-      margin:0 auto;
+      margin:5% auto 0;
     }
     .layer_header {
       position: absolute;
@@ -689,7 +688,6 @@
     }
   }
 }
-/** 20190917 e **/
 
 /**** visual ****/
 .partn_visu, .tournm_visu {
@@ -1260,9 +1258,6 @@
         &.right {
           padding-left:6rem;
           width:calc(50% - 6rem);
-          // position: absolute;
-          // left:calc(50% + 6rem);
-          // width:50%;
         }
       }
     }
