@@ -22,8 +22,8 @@
 			</ul>
 		</div>
 		<div class="lang">
-			<p class="now"><a href="main.html">한국어</a></p>
-			<p><a href="../en/html/main.html">English</a></p>
+			<p class="now"><a href="/">한국어</a></p>
+			<p><a href="/en">English</a></p>
 		</div>
 
 		<div class="mtop_navi">
@@ -64,7 +64,7 @@
 
 
 		</div>
-		<h1 class="logo"><a href="main.html"><span class="a11y">Bmw Korea</span></a></h1>
+		<h1 class="logo"><a href="/"><span class="a11y">Bmw Korea</span></a></h1>
     <p class="bmw-claim">Sheer Driving <span>Pleasure</span></p>
 	</div>
 </div>

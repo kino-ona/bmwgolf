@@ -36,6 +36,10 @@ function subMenuShow(set){
 
 $(document).ready(function() {
 
+	if($('.header .logo').length > 0) {
+		$('.header .logo').find('a').attr('href', '/');
+	}
+
 	$('.mo_menu .mbtn').click(function(){
 		$('body').css('overflow', 'auto');
 		$(this).toggleClass('collapsed');
