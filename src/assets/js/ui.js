@@ -42,6 +42,7 @@ $(document).ready(function() {
 
 	if($('.tournm_cont .sched').length > 0) {
 		var delay = setTimeout(function () {
+			$('.sched li:nth-child(1)').find('.desc').html('<p class="desc">선수 도착</p>')
 			$('.sched li:nth-child(2)').find('.desc').html('<p class="desc">공식 연습일<span class="br2"></span> | 포토콜</p>')
 			$('.sched li:nth-child(3)').find('.desc').html('<p class="desc">프로암 대회<span class="br2"></span> | 공식 기자회견</p>')
 			clearTimeout(delay);
@@ -553,6 +554,20 @@ var delay = setTimeout(function () {
 			$(this).text(text.replace('2021', ''));
 		});
 	}
+
+	if($('.partners_cont .desc:contains("아니쉬 카푸어(Anish Kapoor),")')) {
+		$('.partners_cont .desc').each(function() {
+			var text = $(this).text();
+			$(this).text(text.replace('아니쉬 카푸어(Anish Kapoor),', ''));
+		});
+	}
+	if($('.partners_cont .desc:contains("유일하게")')) {
+		$('.partners_cont .desc').each(function() {
+			var text = $(this).text();
+			$(this).text(text.replace('유일하게', ''));
+		});
+	}
+
 	clearTimeout(delay);
 }, 50);
 

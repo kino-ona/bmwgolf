@@ -165,6 +165,7 @@ var layerOpen = function(layerId){
 	if(layerId =='pop_qcard01') {
 		$('#pop_qcard01 .layer_footer').find('.btnarea').remove();
 		var delay = setTimeout(function () {
+			$('#pop_qcard01 .schedule li:nth-child(1)').find('.desc').html('<p>Player Arrival Date</p><span>18, OCT, 2021</span>')
 			$('#pop_qcard01 .schedule li:nth-child(2)').find('.desc').html('<p>Official Practice Day</p><span>19, OCT, 2021</span>')
 			$('#pop_qcard01 .schedule li:nth-child(3)').find('.desc').html('<p>Pro-Am Tournament | Media Press Day</p><span>20, OCT, 2021</span>')
 			clearTimeout(delay);
@@ -349,5 +350,13 @@ var delay = setTimeout(function () {
 			$(this).text(text.replace('2021', ''));
 		});
 	}
+
+	if($('.partners_cont .desc:contains("Anish Kapoor,")')) {
+		$('.partners_cont .desc').each(function() {
+			var text = $(this).text();
+			$(this).text(text.replace('Anish Kapoor,', ''));
+		});
+	}
+
 	clearTimeout(delay);
 }, 50);
