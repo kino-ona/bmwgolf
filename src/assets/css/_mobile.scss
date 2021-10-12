@@ -747,7 +747,13 @@
           float:none;width:100%;padding:7px 0;
           .tit, .desc {font-size: 1.6rem;}
           .tit {width:9rem;}
-          .desc {width:calc(100% - 10rem);}
+          .desc {
+            width:calc(100% - 10rem);
+            letter-spacing: -.08rem;
+            span {
+              letter-spacing: -.08rem;
+            }
+          }
         }
       }
     }
@@ -1460,8 +1466,26 @@
         }
         p {
           padding-top:5%;
-          // background: url(//bmwimg.cafe24.com/ladies/assets/images/contents/mpop_qcard03_img.jpg) no-repeat center top;
-          // background-size:100%;
+        }
+        .vod_table {
+          padding-top:15px;
+          .tit {
+            font-size:15px;
+          }
+          .half-div {
+            display: block;
+            dl {
+              padding-left:0;
+              border:0;
+              margin-bottom:15px;
+            }
+            dt {
+              font-size:14px;
+            }
+            span {
+              font-size:13px;
+            }
+          }
         }
       }
     }

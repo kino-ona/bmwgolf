@@ -311,6 +311,7 @@ $(document).ready(function() {
 					$(this).parents('.logolist:nth-child(5n)').find('.partn_info').css('top', boxH*2 + 45);
 					$(this).parents('.logolist:nth-child(6)').find('.partn_info').css('top', boxH*2 + 45);
 					$(this).parents('.logolist:nth-child(7)').find('.partn_info').css('top', boxH*2 + 45);
+					$(this).parents('.logolist:nth-child(8)').find('.partn_info').css('top', boxH*2 + 45);
 				}
 			}
 			if($(window).width() <= 1024){
@@ -323,6 +324,7 @@ $(document).ready(function() {
 					$(this).parents('.logolist:nth-child(5)').find('.partn_info').css('top', boxH*2 + 15);
 					$(this).parents('.logolist:nth-child(6)').find('.partn_info').css('top', boxH*2 + 15);
 					$(this).parents('.logolist:nth-child(7)').find('.partn_info').css('top', boxH*2 + 105);
+					$(this).parents('.logolist:nth-child(8)').find('.partn_info').css('top', boxH*2 + 105);
 					$(this).parents('.logolist').css('padding-bottom', parninfoH + 45);
 				}
 
@@ -555,18 +557,18 @@ var delay = setTimeout(function () {
 		});
 	}
 
-	if($('.partners_cont .desc:contains("아니쉬 카푸어(Anish Kapoor),")')) {
-		$('.partners_cont .desc').each(function() {
-			var text = $(this).text();
-			$(this).text(text.replace('아니쉬 카푸어(Anish Kapoor),', ''));
-		});
-	}
-	if($('.partners_cont .desc:contains("유일하게")')) {
-		$('.partners_cont .desc').each(function() {
-			var text = $(this).text();
-			$(this).text(text.replace('유일하게', ''));
-		});
-	}
+	// if($('.partners_cont .desc:contains("아니쉬 카푸어(Anish Kapoor),")')) {
+	// 	$('.partners_cont .desc').each(function() {
+	// 		var text = $(this).text();
+	// 		$(this).text(text.replace('아니쉬 카푸어(Anish Kapoor),', ''));
+	// 	});
+	// }
+	// if($('.partners_cont .desc:contains("유일하게")')) {
+	// 	$('.partners_cont .desc').each(function() {
+	// 		var text = $(this).text();
+	// 		$(this).text(text.replace('유일하게', ''));
+	// 	});
+	// }
 
 	clearTimeout(delay);
 }, 50);

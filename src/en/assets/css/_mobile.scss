@@ -400,8 +400,31 @@
               font-size: 2rem;
             }
             .desc {
+              width:50%;
               font-size: 1.3rem;
+              > p {
+                padding-top:0;
+              }
               span {font-size: 1.1rem;}
+            }
+          }
+        }
+        .vod_table {
+          dt {
+            float: left !important;
+            width:8.5rem !important;
+          }
+          dd {
+            float: left !important;
+            width:calc(100% - 10rem) !important;
+            padding-left:15px;
+          }
+          .desc {
+            display: block;
+            width:100%;
+            margin-bottom:5px;
+            span {
+              flex:none;
             }
           }
         }
@@ -423,16 +446,44 @@
       right:0;
     }
     .layer_wrap {
-      padding-top:25%;
+      padding-top:5%;
       .layer_content {
+        padding-bottom:0;
         > div {
           padding-bottom:25px;
-          font-size:14px;
+          font-size:14px; 
         }
         p {
           padding-top:5%;
           // background: url(../images/contents/mpop_qcard03_img.jpg) no-repeat center top;
           // background-size:100%;
+        }
+        .vod_table {
+          padding-top:15px;
+          text-align: left;
+          border-top:1px solid #d6d5d5;
+          .tit {
+            margin-bottom:15px;
+            font-size:15px;
+          }
+          .half-div {
+            display: block;
+            dl {
+              padding-left:0;
+              border:0;
+              margin-bottom:15px;
+            }
+            dt {
+              font-weight: 600;
+              font-size:14px;
+            }
+            span {
+              display: block;
+              margin-bottom:5px;
+              font-size:13px;
+              font-weight: 300;
+            }
+          }
         }
       }
     }
